@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"SocialLinksPage.css"}
+{"version":3,"sources":["SocialLinksPage.scss","../../styles/partials/_colors.scss","SocialLinksPage.css"],"names":[],"mappings":"AAEA;EACI,yBCFW;ACCf","file":"SocialLinksPage.css"}
