@@ -10,11 +10,11 @@ function SocialLinksPage() {
             <h1>Jessica Randall</h1>
             <p>London, United Kingdom</p>
             <div className='socialCard__links'>
-                <a href='www.google.com'>Github</a>
-                <a href='www.google.com'>LinkedIn</a>
-                <a href='www.google.com'>Frontend Mentor</a>
-                <a href='www.google.com'>Twitter</a>
-                <a href='www.google.com'>Instagram</a>
+                <a className='socialCard__links--style' href='www.google.com'>Github</a>
+                <a className='socialCard__links--style' href='www.google.com'>LinkedIn</a>
+                <a className='socialCard__links--style' href='www.google.com'>Frontend Mentor</a>
+                <a className='socialCard__links--style' href='www.google.com'>Twitter</a>
+                <a className='socialCard__links--style' href='www.google.com'>Instagram</a>
             </div>
         </article>
     )

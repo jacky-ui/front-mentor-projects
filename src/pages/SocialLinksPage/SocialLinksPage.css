@@ -1,3 +1,73 @@
-body {
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/Inter-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/Inter-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/Inter-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+.scBody {
+  margin: 0;
   background-color: #0b1215;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Inter", "Times New Roman", Times, serif;
+}
+
+.socialCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  border-style: none;
+  background-color: hsl(0, 0%, 12%);
+  padding: 1.5rem;
+}
+.socialCard > img {
+  border-radius: 6rem;
+  width: 5rem;
+}
+.socialCard > h1 {
+  color: hsl(0, 0%, 100%);
+}
+.socialCard > p {
+  color: hsl(75, 94%, 57%);
+}
+.socialCard__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+.socialCard__links--style {
+  text-decoration: none;
+  border-radius: 0.5rem;
+  border-style: none;
+  padding: 1rem;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 20%);
+  width: 100%;
+}
+.socialCard__links--style:hover {
+  cursor: pointer;
+  transition: 0.5s;
 }/*# sourceMappingURL=SocialLinksPage.css.map */
