@@ -1,9 +1,11 @@
 import useSetTitle from '../../utils/SetTitle';
+import useSetBodyClass from '../../utils/SetBodyClass';
 import avatar from '../../assets/images/avatar-jessica.jpeg';
 import './SocialLinksPage.scss';
 
 function SocialLinksPage() {
     useSetTitle('Front-End Mentor | Social Links Profile');
+    useSetBodyClass('scBody');
     return(
         <article className='socialCard'>
             <img src={avatar} alt='___ profile avatar'/>

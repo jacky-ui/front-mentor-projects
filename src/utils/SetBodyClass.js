@@ -7,7 +7,7 @@ function useSetBodyClass(bodyClass) {
         return () => {
             document.body.classList.remove(bodyClass);
         };
-    }, []);
+    });
 };
 
 export default useSetBodyClass;
