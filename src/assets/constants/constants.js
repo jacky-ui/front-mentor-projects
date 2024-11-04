@@ -9,7 +9,7 @@ const socialProfileContent = [
         description: '"Front-end developer and avid reader."',
         links: [
             {
-                anchorName: "Github",
+                anchorName: "GitHub",
                 anchorRef: "https://github.com/",
             },
             {

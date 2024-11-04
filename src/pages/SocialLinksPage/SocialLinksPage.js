@@ -1,7 +1,6 @@
 import useSetTitle from '../../utils/SetTitle';
 import useSetBodyClass from '../../utils/SetBodyClass';
 import { socialProfileContent } from '../../assets/constants/constants';
-import avatar from '../../assets/images/avatar-jessica.jpeg';
 import './SocialLinksPage.scss';
 import Link from '../../components/Link/Link';
 
@@ -20,11 +19,6 @@ function SocialLinksPage() {
                         {content.links.map((link) => (
                             <Link linkClass='socialCard__links--style' linkName={link.anchorName} linkHref={link.anchorRef} key={link.anchorName}/>
                         ))}
-                        {/*<a className='socialCard__links--style' href='www.google.com'>Github</a>
-                        <a className='socialCard__links--style' href='www.google.com'>LinkedIn</a>
-                        <a className='socialCard__links--style' href='www.google.com'>Frontend Mentor</a>
-                        <a className='socialCard__links--style' href='www.google.com'>Twitter</a>
-                        <a className='socialCard__links--style' href='www.google.com'>Instagram</a>*/}
                     </div>
                 </article>
             ))}

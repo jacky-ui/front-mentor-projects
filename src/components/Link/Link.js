@@ -1,6 +1,6 @@
-function Links() {
+function Links({ linkClass, linkName, linkHref }) {
     return(
-        <a></a>
+        <a className={linkClass} href={linkHref}>{linkName}</a>
     )
 };
 
