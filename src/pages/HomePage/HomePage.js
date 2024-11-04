@@ -1,7 +1,7 @@
-import { Link } from 'react-router-dom';
 import useSetBodyClass from '../../utils/SetBodyClass';
-import socialLinks from '../../assets/images/social-links.png';
+import { homepageProjects } from '../../assets/constants/constants';
 import './HomePage.scss';
+import ImageLink from '../../components/ImageLink/ImageLink';
 
 function HomePage() {
     useSetBodyClass('home')
@@ -9,32 +9,23 @@ function HomePage() {
         <>
             <h1>Home</h1>
             <section className='homeContent'>
-                <article>
-                    <h2>NEWBIE</h2>
-                    <span className='homeContent__underline'></span>
-                    <div className='homeContent__projects'>
-                        <Link className='projects' to='/social-links'>
-                            <img src={socialLinks} alt=''/>
-                            <figcaption className='projects__caption'>
-                                <h3>Social Links Profile</h3>
-                                <p>Challenge to build social link-sharing profile</p>
-                                <div className='projects__tools'>
-                                    <p>#react</p>
-                                    <p>#scss</p>
-                                </div>
-                            </figcaption>
-                        </Link>
-                        <Link to='/social-links'>
-                            <img src={socialLinks} alt=''/>
-                        </Link>
-                        <Link to='/social-links'>
-                            <img src={socialLinks} alt=''/>
-                        </Link>
-                        <Link to='/social-links'>
-                            <img src={socialLinks} alt=''/>
-                        </Link>
-                    </div>
-                </article>
+                {homepageProjects.map((project) => (
+                    <article key={project.prjtLevel}>
+                        <h2>{project.prjtLevel}</h2>
+                        <span className='homeContent__underline'></span>
+                        <div className='homeContent__projects'>
+                            {project.prjt.map((prjtContent) => (
+                                <ImageLink 
+                                    key={prjtContent.prjtPath}
+                                    linkClass="projects"
+                                    linkPath={prjtContent.prjtPath}
+                                    image={prjtContent.prjtImage}
+                                    description={prjtContent.prjtDescrip}
+                                />
+                            ))}
+                        </div>
+                    </article>
+                ))}
             </section>
         </>
     )

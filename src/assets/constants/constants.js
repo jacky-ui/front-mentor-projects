@@ -1,4 +1,57 @@
+import socialLinksProject from '../images/social-links.png';
 import scAvatar from '../images/avatar-jessica.jpeg';
+
+// constants for projects on homepage
+const homepageProjects = [
+    {
+        prjtLevel: "NEWBIE",
+        prjt: [
+            {
+                prjtPath: "/social-links",
+                prjtImage: socialLinksProject,
+                prjtDescrip: [
+                    {
+                        name: "Social Links Profile",
+                        descrption: "Challenge to build social link-sharing profile",
+                        tools: ["#react", "#scss"]
+                    }
+                ]
+            },
+        ],
+    },
+    {
+        prjtLevel: "JUNIOR",
+        prjt: [
+            {
+                prjtPath: "/social-links",
+                prjtImage: socialLinksProject,
+                prjtDescrip: [
+                    {
+                        name: "Social Links Profile",
+                        descrption: "Challenge to build social link-sharing profile",
+                        tools: ["#react", "#scss"]
+                    }
+                ]
+            },
+        ]
+    },
+    {
+        prjtLevel: "INTERMEDIATE",
+        prjt: [
+            {
+                prjtPath: "/social-links",
+                prjtImage: socialLinksProject,
+                prjtDescrip: [
+                    {
+                        name: "Social Links Profile",
+                        descrption: "Challenge to build social link-sharing profile",
+                        tools: ["#react", "#scss"]
+                    }
+                ]
+            },
+        ]
+    }
+]
 
 // constants for social profile challenge
 const socialProfileContent = [
@@ -32,4 +85,4 @@ const socialProfileContent = [
     }
 ];
 
-export { socialProfileContent };
+export { homepageProjects, socialProfileContent };
