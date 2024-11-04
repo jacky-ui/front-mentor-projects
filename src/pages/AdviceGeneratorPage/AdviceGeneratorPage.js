@@ -1,10 +1,11 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import './AdviceGenerator.scss';
 import useSetBodyClass from '../../utils/SetBodyClass';
+import AdviceCard from '../../components/AdviceCard/AdviceCard';
+import './AdviceGenerator.scss';
 
 function AdviceGenerator() {
-    useSetBodyClass();
+    useSetBodyClass("adviceBody");
     const [adviceApi, setAdvice] = useState(null);
     const [loader, setLoaader] = useState(false);
   
@@ -45,10 +46,10 @@ function AdviceGenerator() {
     } else
     return (
       <>
-        {/*<AdviceCard 
+        <AdviceCard 
           adviceObject={adviceApi}
           onClick={handleChangeAdvice}
-        />*/}
+        />
       </>
     );
   }
