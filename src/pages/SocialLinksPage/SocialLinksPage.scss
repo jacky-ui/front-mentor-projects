@@ -2,10 +2,6 @@
 @use '../../styles/partials/typography' as *;
 @use '../../styles/partials/mixins' as *;
 
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-
 .scBody {
     margin: 0;
     background-color: $obsidianBlack;
