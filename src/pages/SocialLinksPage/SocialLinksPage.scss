@@ -24,18 +24,33 @@
     align-items: center;
     @include borders;
     background-color: $scGreyReg;
-    padding: 1.5rem;
+    padding: 2rem;
+    width: 22rem;
+
+    @include mobile {
+        width: 15rem;
+    }
 
     & > img {
         border-radius: 6rem;
-        width: 5rem;
+        width: 4rem;
     }
 
     & > h1 {
         color: $scWhite;
+        margin: 2rem 0rem 0.5rem 0rem;
+        font-size: 1.3rem;
     }
-    & > p {
+    &__text {
         color: $scGreen;
+        margin: 0;
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+    &__descrip {
+        color: $scWhite;
+        margin: 1.5rem 0rem;
+        font-size: 0.9rem;
     }
 
     // container for links
@@ -43,7 +58,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 1rem;
+        gap: 0.8rem;
         width: 100%;
 
         &--style {
@@ -53,6 +68,14 @@
             color: $scWhite;
             background-color: $scGreyLight;
             width: 100%;
+            font-size: 0.9rem;
+            font-weight: 700;
+            transition: 0.5s;
+
+            &:hover {
+                background-color: $scGreen;
+                color: $scGreyBold;
+            }
         }
     }
 }

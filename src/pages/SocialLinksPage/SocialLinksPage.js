@@ -10,7 +10,8 @@ function SocialLinksPage() {
         <article className='socialCard'>
             <img src={avatar} alt='___ profile avatar'/>
             <h1>Jessica Randall</h1>
-            <p>London, United Kingdom</p>
+            <p className='socialCard__text'>London, United Kingdom</p>
+            <p className='socialCard__descrip'>"Front-end Developer and avid reader."</p>
             <div className='socialCard__links'>
                 <a className='socialCard__links--style' href='www.google.com'>Github</a>
                 <a className='socialCard__links--style' href='www.google.com'>LinkedIn</a>
