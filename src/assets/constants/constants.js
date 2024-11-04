@@ -1,10 +1,12 @@
 import scAvatar from '../images/avatar-jessica.jpeg';
 
+// constants for social profile challenge
 const socialProfileContent = [
     {
+        profile: scAvatar,
         name: "Jessica Randall",
         location: "London, United Kingdom",
-        description: "Front-end developer and avid reader.",
+        description: '"Front-end developer and avid reader."',
         links: [
             {
                 anchorName: "Github",
@@ -29,3 +31,5 @@ const socialProfileContent = [
         ]
     }
 ];
+
+export { socialProfileContent };
