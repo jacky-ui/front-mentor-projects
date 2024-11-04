@@ -1,0 +1,79 @@
+@use '../../styles/partials/colors' as *;
+@use '../../styles/partials/typography' as *;
+@use '../../styles/partials/mixins' as *;
+
+.scBody {
+    margin: 0;
+    background-color: $obsidianBlack;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Inter', 'Times New Roman', Times, serif
+}
+
+// container for social profile care
+.socialCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    @include borders;
+    background-color: $scGreyBold;
+    padding: 2rem;
+    width: 22rem;
+
+    @include mobile {
+        width: 20rem;
+        padding: 1.5rem;
+    }
+
+    & > img {
+        border-radius: 6rem;
+        width: 4rem;
+    }
+
+    & > h1 {
+        color: $scWhite;
+        margin: 2rem 0rem 0.5rem 0rem;
+        font-size: 1.3rem;
+    }
+    &__text {
+        color: $scGreen;
+        margin: 0;
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+    &__descrip {
+        color: $scWhite;
+        margin: 1.5rem 0rem;
+        font-size: 0.9rem;
+    }
+
+    // container for links
+    &__links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem;
+        width: 100%;
+
+        &--style {
+            text-decoration: none;
+            @include borders;
+            @include buttons;
+            color: $scWhite;
+            background-color: $scGreyLight;
+            width: 100%;
+            font-size: 0.9rem;
+            font-weight: 700;
+            transition: 0.5s;
+
+            &:hover {
+                background-color: $scGreen;
+                color: $scGreyBold;
+            }
+        }
+    }
+}
