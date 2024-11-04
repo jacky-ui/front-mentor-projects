@@ -16,6 +16,18 @@
   font-weight: 700;
   font-style: normal;
 }
+@font-face {
+  font-family: "Toboggan";
+  src: url(../../assets/fonts/Toboggan-Light.woff) format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Toboggan";
+  src: url(../../assets/fonts/Toboggan-MediumItalic.woff) format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
 .scBody {
   margin: 0;
   background-color: #0b1215;

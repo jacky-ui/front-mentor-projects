@@ -22,3 +22,20 @@
     font-weight: 700;
     font-style: normal;
 }
+
+// advice generator challenge
+// Light
+@font-face {
+    font-family: 'Toboggan';
+    src: url(../../assets/fonts/Toboggan-Light.woff) format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+// Medium Italic
+@font-face {
+    font-family: 'Toboggan';
+    src: url(../../assets/fonts/Toboggan-MediumItalic.woff) format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
