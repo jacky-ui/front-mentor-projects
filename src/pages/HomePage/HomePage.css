@@ -20,9 +20,14 @@
   margin: 0;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   background-color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: center;
   padding: 2rem 2rem;
 }
 
+.homeContent {
+  max-width: 73rem;
+}
 .homeContent > article > h2 {
   margin-bottom: 0.5rem;
 }
@@ -35,11 +40,46 @@
 }
 .homeContent__projects {
   margin: 1rem 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
 }
 .homeContent__projects > a > img {
-  width: 20rem;
+  width: 17rem;
   border-radius: 0.8rem;
   border-style: none;
+}
+
+.projects {
+  position: relative;
+  color: hsl(0, 0%, 100%);
+}
+.projects__caption {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 17rem;
+  height: 11.4rem;
+  text-align: center;
+  opacity: 0;
+  transition: 0.5s;
+  border-radius: 0.8rem;
+  border-style: none;
+}
+.projects__caption:hover {
+  opacity: 1;
+  background-color: #0b1215;
+}
+.projects__caption > h3 {
+  font-size: 0.8rem;
+}
+.projects__tools {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
 @keyframes lineToRight {

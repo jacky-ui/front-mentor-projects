@@ -6,10 +6,13 @@
     margin: 0;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     background-color: $scWhite;
+    display: flex;
+    justify-content: center;
     padding: 2rem 2rem;
 }
 
 .homeContent {
+    max-width: 73rem;
 
     & > article > h2 {
         margin-bottom: 0.5rem;
@@ -25,14 +28,55 @@
 
     &__projects {
         margin: 1rem 0rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1rem;
 
         & > a > img {
-            width: 20rem;
+            width: 17rem;
             @include borders;
         }
     }
 }
 
+// styling for react Links
+.projects {
+    position: relative;
+    color: $scWhite;
+
+    &__caption {
+        position: absolute;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 17rem;
+        height: 11.4rem;
+        text-align: center;
+        opacity: 0;
+        transition: 0.5s;
+        @include borders;
+
+        &:hover {
+            opacity: 1;
+            background-color: $obsidianBlack;
+        }
+
+        & > h3 {
+            font-size: 0.8rem;
+        }
+    }
+
+    // style tools used for projects
+    &__tools {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+}
+
+// animation for line under h2
 @keyframes lineToRight {
     0% {
         width: 0;
