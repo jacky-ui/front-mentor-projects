@@ -19,38 +19,38 @@ const homepageProjects = [
             },
         ],
     },
-    {
-        prjtLevel: "JUNIOR",
-        prjt: [
-            {
-                prjtPath: "/social-links",
-                prjtImage: socialLinksProject,
-                prjtDescrip: [
-                    {
-                        name: "Social Links Profile",
-                        descrption: "Challenge to build social link-sharing profile",
-                        tools: ["#react", "#scss"]
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        prjtLevel: "INTERMEDIATE",
-        prjt: [
-            {
-                prjtPath: "/social-links",
-                prjtImage: socialLinksProject,
-                prjtDescrip: [
-                    {
-                        name: "Social Links Profile",
-                        descrption: "Challenge to build social link-sharing profile",
-                        tools: ["#react", "#scss"]
-                    }
-                ]
-            },
-        ]
-    }
+    // {
+    //     prjtLevel: "JUNIOR",
+    //     prjt: [
+    //         {
+    //             prjtPath: "/social-links",
+    //             prjtImage: socialLinksProject,
+    //             prjtDescrip: [
+    //                 {
+    //                     name: "Social Links Profile",
+    //                     descrption: "Challenge to build social link-sharing profile",
+    //                     tools: ["#react", "#scss"]
+    //                 }
+    //             ]
+    //         },
+    //     ]
+    // },
+    // {
+    //     prjtLevel: "INTERMEDIATE",
+    //     prjt: [
+    //         {
+    //             prjtPath: "/social-links",
+    //             prjtImage: socialLinksProject,
+    //             prjtDescrip: [
+    //                 {
+    //                     name: "Social Links Profile",
+    //                     descrption: "Challenge to build social link-sharing profile",
+    //                     tools: ["#react", "#scss"]
+    //                 }
+    //             ]
+    //         },
+    //     ]
+    // }
 ]
 
 // constants for social profile challenge
