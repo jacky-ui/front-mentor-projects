@@ -33,6 +33,14 @@
   background-color: #0b1215;
   animation: lineToRight 3s linear 0.5s normal;
 }
+.homeContent__projects {
+  margin: 1rem 0rem;
+}
+.homeContent__projects > a > img {
+  width: 20rem;
+  border-radius: 0.8rem;
+  border-style: none;
+}
 
 @keyframes lineToRight {
   0% {
