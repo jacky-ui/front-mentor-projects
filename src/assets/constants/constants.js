@@ -154,6 +154,28 @@ const recipeConstants = [
                     }
                 ]
             }
+        ],
+        tableData: [
+            {
+                tableHead: "Calories",
+                tableData: "277 kcal",
+                scope: "row",
+            },
+            {
+                tableHead: "Carbs",
+                tableData: "0 g",
+                scope: "row",
+            },
+            {
+                tableHead: "Protein",
+                tableData: "20 g",
+                scope: "row",
+            },
+            {
+                tableHead: "Fat",
+                tableData: "22 g",
+                scope: "row",
+            }
         ]
     }
 ]

@@ -4,7 +4,7 @@ function UnorderedList({ itemList }) {
     return(
         <ul>
             {itemList.map((item) => (
-                <ListItem itemContent={item.item}/>
+                <ListItem itemContent={item.item} key={item.item}/>
             ))}
         </ul>
     )

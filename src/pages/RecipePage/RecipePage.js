@@ -5,6 +5,7 @@ import recipeImage from '../../assets/images/image-omelette.jpeg';
 import Divider from '../../components/Divider/Divider';
 import OrderedList from '../../components/OrderedList/OrderedList';
 import UnorderedList from '../../components/UnorderedList/UnorderedList';
+import TableRow from '../../components/TableRow/TableRow';
 import './RecipePage.scss';
 
 function RecipePage() {
@@ -52,22 +53,7 @@ function RecipePage() {
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <th scope="row">Calories</th>
-                                    <td>277 kcal</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">Carbs</th>
-                                    <td>0 g</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">Protein</th>
-                                    <td>20 g</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">Fat</th>
-                                    <td>22 g</td>
-                                </tr>
+                                <TableRow tableData={content.tableData}/>
                             </tbody>
                         </table>
                     </section>
