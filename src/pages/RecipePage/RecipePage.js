@@ -46,28 +46,28 @@ function RecipePage() {
                                 <p>The table below shows nutritional values per serving without the additional fillings.</p>
                             </caption>
                             <thead>
-                            <tr>
-                                <th scope="col">Nutrient</th>
-                                <th scope="col">Amount</th>
-                            </tr>
+                                <tr>
+                                    <th scope="col">Nutrient</th>
+                                    <th scope="col">Amount</th>
+                                </tr>
                             </thead>
                             <tbody>
-                            <tr>
-                                <th scope="row">Calories</th>
-                                <td>277 kcal</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Carbs</th>
-                                <td>0 g</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Protein</th>
-                                <td>20 g</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Fat</th>
-                                <td>22 g</td>
-                            </tr>
+                                <tr>
+                                    <th scope="row">Calories</th>
+                                    <td>277 kcal</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Carbs</th>
+                                    <td>0 g</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Protein</th>
+                                    <td>20 g</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Fat</th>
+                                    <td>22 g</td>
+                                </tr>
                             </tbody>
                         </table>
                     </section>
