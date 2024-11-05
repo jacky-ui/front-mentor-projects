@@ -7,11 +7,19 @@ function RecipePage() {
     useSetBodyClass("rpBody");
     useSetTitle("Frontend Mentor | Recipe Page");
     return(
-        <article className='rpContain'>
-            <img src={recipeImage} alt="Omelette"/>
-            <h1>Simple Omelette Recipe</h1>
-            <p></p>
-        </article>
+        <section className='rpContain'>
+            <section className='heading'>
+                <img src={recipeImage} alt="Omelette"/>
+                <h1>Simple Omelette Recipe</h1>
+                <p className='heading__description'>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+            </section>
+            <section className='preContain'>
+                <h2>Preparation time</h2>
+                <ol>
+
+                </ol>
+            </section>
+        </section>
     )
 };
 

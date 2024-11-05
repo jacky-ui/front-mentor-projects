@@ -64,17 +64,27 @@
   background-color: hsl(0, 0%, 100%);
   border-radius: 0.8rem;
   border-style: none;
-  padding: 1rem;
+  padding: 1.5rem;
+  width: 25rem;
 }
 .rpContain h1, .rpContain h2, .rpContain h3, .rpContain h4 {
   font-family: "Young Serif", "Times New Roman", Times, serif;
 }
-.rpContain > h1 {
+.rpContain p {
+  font-family: "Outfit", "Times New Roman", Times, serif;
+}
+
+.heading > h1 {
   font-size: 1.25rem;
   color: hsl(24, 5%, 18%);
 }
-.rpContain > img {
+.heading > img {
   border-radius: 0.8rem;
   border-style: none;
-  width: 20rem;
+  width: 100%;
+}
+.heading__description {
+  color: hsl(30, 10%, 34%);
+  font-size: 1rem;
+  font-weight: 600;
 }/*# sourceMappingURL=RecipePage.css.map */
