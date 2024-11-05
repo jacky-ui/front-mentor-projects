@@ -19,9 +19,7 @@
     }
 
     &__underline {
-        display: block;
-        width: 100%;
-        height: 0.2rem;
+        @include underline;
         background-color: $obsidianBlack;
         animation: lineToRight 3s linear 0.5s normal;
     }

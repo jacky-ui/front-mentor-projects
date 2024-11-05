@@ -1,0 +1,272 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/Inter-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/Inter-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/Inter-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Toboggan";
+  src: url("../../assets/fonts/Toboggan-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Toboggan";
+  src: url("../../assets/fonts/Toboggan-MediumItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Young Serif";
+  src: url("../../assets/fonts/YoungSerif-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("../../assets/fonts/Outfit-Light.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("../../assets/fonts/Outfit-Regular.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("../../assets/fonts/Outfit-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+.rpBody {
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+@media screen and (max-width: 760px) {
+  .rpBody {
+    height: unset;
+  }
+}
+
+.rpContain {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0.8rem;
+  border-style: none;
+  padding: 1.5rem;
+  width: 25rem;
+}
+@media screen and (max-width: 760px) {
+  .rpContain {
+    padding: 0rem 0rem 1rem 0rem;
+    border-radius: unset;
+    width: 100%;
+  }
+}
+.rpContain h1, .rpContain h2, .rpContain h3, .rpContain h4, .rpContain caption {
+  font-family: "Young Serif", "Times New Roman", Times, serif;
+}
+.rpContain p, .rpContain ol, .rpContain ul, .rpContain li, .rpContain th, .rpContain td {
+  font-family: "Outfit", "Times New Roman", Times, serif;
+  line-height: 22px;
+  font-size: 0.875rem;
+}
+@media screen and (max-width: 760px) {
+  .rpContain p, .rpContain ol, .rpContain ul, .rpContain li, .rpContain th, .rpContain td {
+    font-size: 1rem;
+    line-height: 25px;
+  }
+}
+
+.heading > h1 {
+  font-size: 1.25rem;
+  color: hsl(24, 5%, 18%);
+}
+@media screen and (max-width: 760px) {
+  .heading > h1 {
+    padding: 0rem 2rem;
+    font-size: 2.5rem;
+    margin: 1rem 0rem;
+  }
+}
+.heading > img {
+  border-radius: 0.8rem;
+  border-style: none;
+  width: 100%;
+}
+@media screen and (max-width: 760px) {
+  .heading > img {
+    border-radius: unset;
+  }
+}
+.heading__description {
+  color: hsl(30, 10%, 34%);
+  font-weight: 600;
+}
+@media screen and (max-width: 760px) {
+  .heading__description {
+    padding: 0rem 2rem;
+  }
+}
+
+.prepContain {
+  background-color: hsl(330, 100%, 98%);
+  padding: 1.25rem;
+  border-radius: 0.8rem;
+  border-style: none;
+}
+@media screen and (max-width: 760px) {
+  .prepContain {
+    padding: 2rem;
+    margin: 2rem 2rem;
+  }
+}
+.prepContain > h2 {
+  font-family: "Outfit";
+  font-size: 1rem;
+  font-weight: 700;
+  color: hsl(332, 51%, 32%);
+  margin: 0rem 0rem 0.8rem 0rem;
+}
+@media screen and (max-width: 760px) {
+  .prepContain > h2 {
+    font-size: 1.2rem;
+  }
+}
+.prepContain > ul {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+.prepContain > ul > li {
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+}
+.prepContain > ul > li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.list--spacing {
+  position: relative;
+  left: 10px;
+}
+.list--spacing > span {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 760px) {
+  .ingredients {
+    margin: 0rem 2rem;
+  }
+}
+.ingredients > h2 {
+  color: hsl(14, 45%, 36%);
+  font-size: 1.15rem;
+}
+.ingredients > ul {
+  padding-left: 1rem;
+}
+.ingredients > ul li {
+  color: hsl(30, 10%, 34%);
+}
+.ingredients > ul li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+.divider {
+  display: block;
+  width: 100%;
+  height: 0.1rem;
+  height: 0.05rem;
+  background-color: hsl(30, 18%, 87%);
+}
+@media screen and (max-width: 760px) {
+  .divider {
+    width: unset;
+    margin: 2rem 2rem 1rem 2rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .instructions {
+    margin: 0rem 2rem;
+  }
+}
+.instructions > h2 {
+  color: hsl(14, 45%, 36%);
+  font-size: 1.15rem;
+}
+.instructions > ol {
+  padding-left: 1rem;
+}
+.instructions > ol > li {
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+}
+.instructions > ol > li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
+.table {
+  margin-top: 1rem;
+}
+@media screen and (max-width: 760px) {
+  .table {
+    margin: 0rem 2rem;
+  }
+}
+.table > table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table > table > caption {
+  color: hsl(14, 45%, 36%);
+  font-size: 1.15rem;
+  text-align: start;
+}
+.table > table > caption > p {
+  font-size: 0.875rem;
+  color: hsl(30, 10%, 34%);
+}
+.table > table > thead {
+  position: relative;
+  width: 0%;
+  height: 0%;
+  opacity: 0%;
+}
+.table > table > thead tr {
+  position: absolute;
+}
+.table > table > tbody > tr {
+  border-bottom: 0.05rem solid hsl(30, 18%, 87%);
+  text-align: left;
+  padding: 1rem;
+}
+.table > table > tbody > tr:last-child {
+  border-bottom: unset;
+}
+.table > table > tbody > tr th {
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+  padding: 0.5rem 1rem;
+}
+.table > table > tbody > tr td {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}/*# sourceMappingURL=RecipePage.css.map */
