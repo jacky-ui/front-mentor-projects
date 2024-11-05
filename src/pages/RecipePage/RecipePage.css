@@ -30,25 +30,25 @@
 }
 @font-face {
   font-family: "Young Serif";
-  src: url("../../assets/fonts/YoungSerif-Regular.ttf") format("ttf");
+  src: url("../../assets/fonts/YoungSerif-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Outfit";
-  src: url("../../assets/fonts/Outfit-Light.ttf") format("ttf");
+  src: url("../../assets/fonts/Outfit-Light.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Outfit";
-  src: url("../../assets/fonts/Outfit-Regular.ttf") format("ttf");
+  src: url("../../assets/fonts/Outfit-Regular.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: "Outfit";
-  src: url("../../assets/fonts/Outfit-Bold.ttf") format("ttf");
+  src: url("../../assets/fonts/Outfit-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
@@ -64,4 +64,17 @@
   background-color: hsl(0, 0%, 100%);
   border-radius: 0.8rem;
   border-style: none;
+  padding: 1rem;
+}
+.rpContain h1, .rpContain h2, .rpContain h3, .rpContain h4 {
+  font-family: "Young Serif", "Times New Roman", Times, serif;
+}
+.rpContain > h1 {
+  font-size: 1.25rem;
+  color: hsl(24, 5%, 18%);
+}
+.rpContain > img {
+  border-radius: 0.8rem;
+  border-style: none;
+  width: 20rem;
 }/*# sourceMappingURL=RecipePage.css.map */

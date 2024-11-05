@@ -13,4 +13,19 @@
 .rpContain {
     background-color: $scWhite;
     @include borders;
+    padding: 1rem;
+    
+    h1, h2, h3, h4 {
+        font-family: 'Young Serif', 'Times New Roman', Times, serif;
+    }
+
+    & > h1 {
+        font-size: 1.25rem;
+        color: $rpStone900;
+    }
+
+    & > img {
+        @include borders;
+        width: 20rem;
+    }
 }

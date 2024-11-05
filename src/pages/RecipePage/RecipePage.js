@@ -8,7 +8,9 @@ function RecipePage() {
     useSetTitle("Frontend Mentor | Recipe Page");
     return(
         <article className='rpContain'>
-        
+            <img src={recipeImage} alt="Omelette"/>
+            <h1>Simple Omelette Recipe</h1>
+            <p></p>
         </article>
     )
 };
