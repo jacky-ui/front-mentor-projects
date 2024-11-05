@@ -1,4 +1,5 @@
 import socialLinksProject from '../images/social-links.png';
+import recipePageProject from '../images/recipe-page.png';
 import adviceGeneratorProject from '../images/advice-generator.png';
 import scAvatar from '../images/avatar-jessica.jpeg';
 
@@ -18,6 +19,17 @@ const homepageProjects = [
                     }
                 ]
             },
+            {
+                prjtPath: "/recipe-page",
+                prjtImage: recipePageProject,
+                prjtDescrip: [
+                    {
+                        name: "Recipe Page",
+                        descrption: "Challenge to build recipe page",
+                        tools: ["#react", "#scss"]
+                    }
+                ]
+            }
         ],
     },
     {
