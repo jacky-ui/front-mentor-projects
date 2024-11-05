@@ -4,7 +4,7 @@ function OrderedList({ itemList }) {
     console.log(itemList)
     return(
         <ol>
-        {itemList.map((item) => (
+            {itemList.map((item) => (
                 <ListItem itemContent={item.item}/>
             ))}
         </ol>
