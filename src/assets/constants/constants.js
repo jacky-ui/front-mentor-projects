@@ -96,13 +96,13 @@ const recipeConstants = [
                 title: "Preparation time",
                 list: [
                     {
-                        item: `${<span className='list--spacing'><span>Total:</span> Approximately 10 minutes</span>}`,
+                        item: <span className='list--spacing'><span>Total:</span> Approximately 10 minutes</span>,
                     },
                     {
-                        item: `${<span className='list--spacing'><span>Total:</span> Approximately 10 minutes</span>}`,
+                        item: <span className='list--spacing'><span>Total:</span> Approximately 10 minutes</span>,
                     },
                     {
-                        item: `${<span className='list--spacing'><span>Total:</span> Approximately 10 minutes</span>}`,
+                        item: <span className='list--spacing'><span>Total:</span> Approximately 10 minutes</span>,
                     }
                 ]
             }
@@ -112,19 +112,19 @@ const recipeConstants = [
                 title: "Ingredients",
                 list: [
                     {
-                        item: `${<span className='list--spacing'>2-3 large eggs</span>}`,
+                        item: <span className='list--spacing'>2-3 large eggs</span>,
                     },
                     {
-                        item: `${<span className='list--spacing'>Salt, to taste</span>}`,
+                        item: <span className='list--spacing'>Salt, to taste</span>,
                     },
                     {
-                        item: `${<span className='list--spacing'>Pepper, to taste</span>}`,
+                        item: <span className='list--spacing'>Pepper, to taste</span>,
                     },
                     {
-                        item: `${<span className='list--spacing'>1 tablespoon of butter or oil</span>}`,
+                        item: <span className='list--spacing'>1 tablespoon of butter or oil</span>,
                     },
                     {
-                        item: `${<span className='list--spacing'>Optional fillings: cheese, diced vegetables, cooked meats, herbs</span>}`,
+                        item: <span className='list--spacing'>Optional fillings: cheese, diced vegetables, cooked meats, herbs</span>,
                     }
                 ]
             }
