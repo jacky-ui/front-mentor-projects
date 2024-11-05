@@ -12,7 +12,7 @@ function RecipePage() {
     useSetTitle("Frontend Mentor | Recipe Page");
     return(
         <>
-        {recipeConstants.map((content) => (
+            {recipeConstants.map((content) => (
                 <main className='rpContain' key={content.title}>
                     <section className='heading'>
                         <img src={recipeImage} alt="Omelette"/>
@@ -72,7 +72,7 @@ function RecipePage() {
                         </table>
                     </section>
                 </main>
-                ))}
+            ))}
         </>
     )
 };
