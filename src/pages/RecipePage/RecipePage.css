@@ -82,13 +82,13 @@
 .rpContain h1, .rpContain h2, .rpContain h3, .rpContain h4, .rpContain caption {
   font-family: "Young Serif", "Times New Roman", Times, serif;
 }
-.rpContain p, .rpContain ol, .rpContain ul, .rpContain li {
+.rpContain p, .rpContain ol, .rpContain ul, .rpContain li, .rpContain th, .rpContain td {
   font-family: "Outfit", "Times New Roman", Times, serif;
   line-height: 22px;
   font-size: 0.875rem;
 }
 @media screen and (max-width: 760px) {
-  .rpContain p, .rpContain ol, .rpContain ul, .rpContain li {
+  .rpContain p, .rpContain ol, .rpContain ul, .rpContain li, .rpContain th, .rpContain td {
     font-size: 1rem;
     line-height: 25px;
   }
@@ -233,6 +233,7 @@
 }
 .table > table {
   width: 100%;
+  border-collapse: collapse;
 }
 .table > table > caption {
   color: hsl(14, 45%, 36%);
@@ -242,4 +243,30 @@
 .table > table > caption > p {
   font-size: 0.875rem;
   color: hsl(30, 10%, 34%);
+}
+.table > table > thead {
+  position: relative;
+  width: 0%;
+  height: 0%;
+  opacity: 0%;
+}
+.table > table > thead tr {
+  position: absolute;
+}
+.table > table > tbody > tr {
+  border-bottom: 0.05rem solid hsl(30, 18%, 87%);
+  text-align: left;
+  padding: 1rem;
+}
+.table > table > tbody > tr:last-child {
+  border-bottom: unset;
+}
+.table > table > tbody > tr th {
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+  padding: 0.5rem 1rem;
+}
+.table > table > tbody > tr td {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
 }/*# sourceMappingURL=RecipePage.css.map */

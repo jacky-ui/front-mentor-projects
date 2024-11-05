@@ -29,7 +29,7 @@
     h1, h2, h3, h4, caption {
         font-family: 'Young Serif', 'Times New Roman', Times, serif;
     }
-    p, ol, ul, li {
+    p, ol, ul, li, th, td {
         font-family: 'Outfit', 'Times New Roman', Times, serif;
         line-height: 22px;
         font-size: 0.875rem;
@@ -170,6 +170,7 @@
     }
     & > table {
         width: 100%;
+        border-collapse: collapse;
         & > caption {
             color: $rpBrown800;
             font-size: 1.15rem;
@@ -177,6 +178,32 @@
             & > p {
                 font-size: 0.875rem;
                 color: $rpStone600;
+            }
+        }
+        & > thead {
+            position: relative;
+            width: 0%;
+            height: 0%;
+            opacity: 0%;
+            & tr {
+                position: absolute;
+            }
+        }
+        & > tbody > tr {
+            border-bottom: 0.05rem solid $rpStone150;
+            text-align: left;
+            padding: 1rem;
+            &:last-child {
+                border-bottom: unset;
+            }
+            & th {
+                font-weight: 400;
+                color: $rpStone600;
+                padding: 0.5rem 1rem;
+            }
+            & td {
+                color: $rpBrown800;
+                font-weight: 700;
             }
         }
     }
