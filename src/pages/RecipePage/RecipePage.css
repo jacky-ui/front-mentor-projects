@@ -79,7 +79,7 @@
     width: 100%;
   }
 }
-.rpContain h1, .rpContain h2, .rpContain h3, .rpContain h4 {
+.rpContain h1, .rpContain h2, .rpContain h3, .rpContain h4, .rpContain caption {
   font-family: "Young Serif", "Times New Roman", Times, serif;
 }
 .rpContain p, .rpContain ol, .rpContain ul, .rpContain li {
@@ -221,4 +221,25 @@
 .instructions > ol > li::marker {
   color: hsl(14, 45%, 36%);
   font-weight: 700;
+}
+
+.table {
+  margin-top: 1rem;
+}
+@media screen and (max-width: 760px) {
+  .table {
+    margin: 0rem 2rem;
+  }
+}
+.table > table {
+  width: 100%;
+}
+.table > table > caption {
+  color: hsl(14, 45%, 36%);
+  font-size: 1.15rem;
+  text-align: start;
+}
+.table > table > caption > p {
+  font-size: 0.875rem;
+  color: hsl(30, 10%, 34%);
 }/*# sourceMappingURL=RecipePage.css.map */
