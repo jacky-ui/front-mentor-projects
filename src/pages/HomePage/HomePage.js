@@ -2,6 +2,7 @@ import useSetBodyClass from '../../utils/SetBodyClass';
 import { homepageProjects } from '../../assets/constants/constants';
 import './HomePage.scss';
 import ImageLink from '../../components/ImageLink/ImageLink';
+import Divider from '../../components/Divider/Divider';
 
 function HomePage() {
     useSetBodyClass('home')
@@ -12,7 +13,7 @@ function HomePage() {
                 {homepageProjects.map((project) => (
                     <article key={project.prjtLevel}>
                         <h2>{project.prjtLevel}</h2>
-                        <span className='homeContent__underline'></span>
+                        <Divider spanClass='homeContent__underline' />
                         <div className='homeContent__projects'>
                             {project.prjt.map((prjtContent) => (
                                 <ImageLink 
