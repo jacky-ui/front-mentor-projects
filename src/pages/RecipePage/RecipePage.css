@@ -127,7 +127,8 @@
 }
 @media screen and (max-width: 760px) {
   .prepContain {
-    padding: 0rem 1rem;
+    padding: 2rem;
+    margin: 1rem 2rem;
   }
 }
 .prepContain > h2 {
@@ -137,6 +138,11 @@
   color: hsl(332, 51%, 32%);
   margin: 0rem 0rem 0.8rem 0rem;
 }
+@media screen and (max-width: 760px) {
+  .prepContain > h2 {
+    font-size: 1.2rem;
+  }
+}
 .prepContain__lists {
   margin: 0;
   padding-left: 1.5rem;
@@ -145,6 +151,11 @@
   font-weight: 400;
   font-size: 0.875rem;
   color: hsl(30, 10%, 34%);
+}
+@media screen and (max-width: 760px) {
+  .prepContain__lists > li {
+    font-size: 1rem;
+  }
 }
 .prepContain__lists--spacing {
   position: relative;

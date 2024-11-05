@@ -71,7 +71,8 @@
     @include borders;
 
     @include mobile {
-        padding: 0rem 1rem;
+        padding: 2rem;
+        margin: 1rem 2rem;
     }
 
     & > h2 {
@@ -80,6 +81,10 @@
         font-weight: 700;
         color: $rpRose800;
         margin: 0rem 0rem 0.8rem 0rem;
+
+        @include mobile {
+            font-size: 1.2rem;
+        }
     }
     &__lists {
         margin: 0;
@@ -89,6 +94,10 @@
             font-weight: 400;
             font-size: 0.875rem;
             color: $rpStone600;
+
+            @include mobile {
+                font-size: 1rem;
+            }
         }
         &--spacing {
             position: relative;
