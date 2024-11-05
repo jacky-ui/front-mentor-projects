@@ -1,8 +1,8 @@
 import useSetBodyClass from '../../utils/SetBodyClass';
 import { homepageProjects } from '../../assets/constants/constants';
-import './HomePage.scss';
-import ImageLink from '../../components/ImageLink/ImageLink';
 import Divider from '../../components/Divider/Divider';
+import ImageLink from '../../components/ImageLink/ImageLink';
+import './HomePage.scss';
 
 function HomePage() {
     useSetBodyClass('home')
