@@ -59,6 +59,11 @@
   align-items: center;
   height: 100vh;
 }
+@media screen and (max-width: 760px) {
+  .rpBody {
+    height: unset;
+  }
+}
 
 .rpContain {
   background-color: hsl(0, 0%, 100%);
@@ -66,6 +71,13 @@
   border-style: none;
   padding: 1.5rem;
   width: 25rem;
+}
+@media screen and (max-width: 760px) {
+  .rpContain {
+    padding: unset;
+    border-radius: unset;
+    width: 100%;
+  }
 }
 .rpContain h1, .rpContain h2, .rpContain h3, .rpContain h4 {
   font-family: "Young Serif", "Times New Roman", Times, serif;
@@ -78,15 +90,33 @@
   font-size: 1.25rem;
   color: hsl(24, 5%, 18%);
 }
+@media screen and (max-width: 760px) {
+  .heading > h1 {
+    padding: 0rem 2rem;
+    font-size: 2.5rem;
+    margin: 1rem 0rem;
+  }
+}
 .heading > img {
   border-radius: 0.8rem;
   border-style: none;
   width: 100%;
 }
+@media screen and (max-width: 760px) {
+  .heading > img {
+    border-radius: unset;
+  }
+}
 .heading__description {
   color: hsl(30, 10%, 34%);
   font-size: 0.875rem;
   font-weight: 600;
+}
+@media screen and (max-width: 760px) {
+  .heading__description {
+    padding: 0rem 2rem;
+    font-size: 1rem;
+  }
 }
 
 .prepContain {
@@ -94,6 +124,11 @@
   padding: 1.25rem;
   border-radius: 0.8rem;
   border-style: none;
+}
+@media screen and (max-width: 760px) {
+  .prepContain {
+    padding: 0rem 1rem;
+  }
 }
 .prepContain > h2 {
   font-family: "Outfit";

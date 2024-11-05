@@ -8,6 +8,10 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+
+    @include mobile {
+        height: unset;
+    }
 }
 
 // main container for recipe
@@ -16,6 +20,12 @@
     @include borders;
     padding: 1.5rem;
     width: 25rem;
+
+    @include mobile {
+        padding: unset;
+        border-radius: unset;
+        width: 100%;
+    }
     h1, h2, h3, h4 {
         font-family: 'Young Serif', 'Times New Roman', Times, serif;
     }
@@ -29,15 +39,28 @@
     & > h1 {
         font-size: 1.25rem;
         color: $rpStone900;
+        @include mobile {
+            padding: 0rem 2rem;
+            font-size:2.5rem;
+            margin: 1rem 0rem
+        }
     }
     & > img {
         @include borders;
         width: 100%;
+
+        @include mobile {
+            border-radius: unset;
+        }
     }
     &__description {
         color: $rpStone600;
         font-size: 0.875rem;
         font-weight: 600;
+        @include mobile {
+            padding: 0rem 2rem;
+            font-size: 1rem;
+        }
     }
 }
 
@@ -46,6 +69,10 @@
     background-color: $rpRose50;
     padding: 1.25rem;
     @include borders;
+
+    @include mobile {
+        padding: 0rem 1rem;
+    }
 
     & > h2 {
         font-family: 'Outfit';
