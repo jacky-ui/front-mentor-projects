@@ -31,13 +31,6 @@ function RecipePage() {
                         <section className='ingredients'>
                             <h2>{ingredient.title}</h2>
                             <UnorderedList itemList={ingredient.list}/>
-                            {/*<ul>
-                                <li><span className='list--spacing'>2-3 large eggs</span></li>
-                                <li><span className='list--spacing'>Salt, to taste</span></li>
-                                <li><span className='list--spacing'>Pepper, to taste</span></li>
-                                <li><span className='list--spacing'>1 tablespoon of butter or oil</span></li>
-                                <li><span className='list--spacing'>Optional fillings: cheese, diced vegetables, cooked meats, herbs</span></li>
-                            </ul>*/}
                         </section>
                     ))}
                     <Divider spanClass='divider'/>
