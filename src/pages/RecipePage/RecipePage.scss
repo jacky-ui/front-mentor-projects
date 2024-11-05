@@ -21,7 +21,7 @@
         font-family: 'Young Serif', 'Times New Roman', Times, serif;
     }
 
-    p {
+    p, ol, ul {
         font-family: 'Outfit', 'Times New Roman', Times, serif;
     }
 }
@@ -40,7 +40,34 @@
         
     &__description {
         color: $rpStone600;
-        font-size: 1rem;
+        font-size: 0.875rem;
         font-weight: 600;
+    }
+}
+
+// preparation section
+.prepContain {
+    background-color: $rpRose50;
+    padding: 1.25rem;
+    @include borders;
+
+    & > h2 {
+        font-family: 'Outfit';
+        font-size: 1rem;
+        font-weight: 700;
+        color: $rpRose800;
+        margin: 0rem 0rem 0.8rem 0rem;
+    }
+
+    &__lists {
+        margin: 0;
+        padding-left: 1rem;
+        padding: 0rem 1.5rem 0rem 1rem;
+
+        & > li {
+            font-weight: 400;
+            font-size: 0.875rem;
+            color: $rpStone600;
+        }
     }
 }
