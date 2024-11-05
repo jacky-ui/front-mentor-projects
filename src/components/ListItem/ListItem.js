@@ -1,6 +1,6 @@
-function ListItem() {
+function ListItem({ itemContent }) {
     return(
-        <li></li>
+        <li>{itemContent}</li>
     )
 };
 
