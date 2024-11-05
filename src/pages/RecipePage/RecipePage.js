@@ -16,9 +16,9 @@ function RecipePage() {
             <section className='prepContain'>
                 <h2>Preparation time</h2>
                 <ul className='prepContain__lists'>
-                    <li><span>Total:</span> Approximately 10 minutes</li>
-                    <li><span>Preparation:</span> 5 minutes</li>
-                    <li><span>Cooking:</span> 5 minutes</li>
+                    <li><span className='prepContain__lists--spacing'><span>Total:</span> Approximately 10 minutes</span></li>
+                    <li><span className='prepContain__lists--spacing'><span>Preparation:</span> 5 minutes</span></li>
+                    <li><span className='prepContain__lists--spacing'><span>Cooking:</span> 5 minutes</span></li>
                 </ul>
             </section>
         </section>

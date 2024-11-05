@@ -16,11 +16,9 @@
     @include borders;
     padding: 1.5rem;
     width: 25rem;
-    
     h1, h2, h3, h4 {
         font-family: 'Young Serif', 'Times New Roman', Times, serif;
     }
-
     p, ol, ul {
         font-family: 'Outfit', 'Times New Roman', Times, serif;
     }
@@ -32,12 +30,10 @@
         font-size: 1.25rem;
         color: $rpStone900;
     }
-    
     & > img {
         @include borders;
         width: 100%;
     }
-        
     &__description {
         color: $rpStone600;
         font-size: 0.875rem;
@@ -58,16 +54,22 @@
         color: $rpRose800;
         margin: 0rem 0rem 0.8rem 0rem;
     }
-
     &__lists {
         margin: 0;
-        padding-left: 1rem;
-        padding: 0rem 1.5rem 0rem 1rem;
+        padding-left: 1.5rem;
 
         & > li {
             font-weight: 400;
             font-size: 0.875rem;
             color: $rpStone600;
+        }
+        &--spacing {
+            position: relative;
+            left: 10px;
+
+            & > span {
+                font-weight: 700;
+            }
         }
     }
 }

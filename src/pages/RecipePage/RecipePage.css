@@ -104,11 +104,17 @@
 }
 .prepContain__lists {
   margin: 0;
-  padding-left: 1rem;
-  padding: 0rem 1.5rem 0rem 1rem;
+  padding-left: 1.5rem;
 }
 .prepContain__lists > li {
   font-weight: 400;
   font-size: 0.875rem;
   color: hsl(30, 10%, 34%);
+}
+.prepContain__lists--spacing {
+  position: relative;
+  left: 10px;
+}
+.prepContain__lists--spacing > span {
+  font-weight: 700;
 }/*# sourceMappingURL=RecipePage.css.map */
