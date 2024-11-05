@@ -4,4 +4,13 @@
 
 .rpBody {
     background-color: $rpStone100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.rpContain {
+    background-color: $scWhite;
+    @include borders;
 }

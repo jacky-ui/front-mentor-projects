@@ -1,11 +1,13 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import useSetBodyClass from '../../utils/SetBodyClass';
+import useSetTitle from '../../utils/SetTitle';
 import AdviceCard from '../../components/AdviceCard/AdviceCard';
 import './AdviceGenerator.scss';
 
 function AdviceGenerator() {
     useSetBodyClass("adviceBody");
+    useSetTitle("Frontend Mentor | Advice Generator");
     const [adviceApi, setAdvice] = useState(null);
     const [loader, setLoaader] = useState(false);
   

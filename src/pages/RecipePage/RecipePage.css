@@ -54,4 +54,14 @@
 }
 .rpBody {
   background-color: hsl(30, 54%, 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.rpContain {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0.8rem;
+  border-style: none;
 }/*# sourceMappingURL=RecipePage.css.map */
