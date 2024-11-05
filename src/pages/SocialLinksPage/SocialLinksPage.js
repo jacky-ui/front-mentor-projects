@@ -5,7 +5,7 @@ import './SocialLinksPage.scss';
 import Link from '../../components/Link/Link';
 
 function SocialLinksPage() {
-    useSetTitle('Front-End Mentor | Social Links Profile');
+    useSetTitle('Frontend Mentor | Social Links Profile');
     useSetBodyClass('scBody');
     return(
         <>
