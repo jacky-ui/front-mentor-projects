@@ -99,10 +99,10 @@ const recipeConstants = [
                         item: <span className='list--spacing'><span>Total:</span> Approximately 10 minutes</span>,
                     },
                     {
-                        item: <span className='list--spacing'><span>Total:</span> Approximately 10 minutes</span>,
+                        item: <span className='list--spacing'><span>Preparation:</span> 5 minutes</span>,
                     },
                     {
-                        item: <span className='list--spacing'><span>Total:</span> Approximately 10 minutes</span>,
+                        item: <span className='list--spacing'><span>Cooking:</span> 5 minutes</span>,
                     }
                 ]
             }

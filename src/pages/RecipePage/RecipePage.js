@@ -19,14 +19,12 @@ function RecipePage() {
                         <h1>{content.title}</h1>
                         <p className='heading__description'>{content.description}</p>
                     </section>
-                    <section className='prepContain'>
-                        <h2>Preparation time</h2>
-                        <ul className='prepContain__lists'>
-                            <li><span className='list--spacing'><span>Total:</span> Approximately 10 minutes</span></li>
-                            <li><span className='list--spacing'><span>Preparation:</span> 5 minutes</span></li>
-                            <li><span className='list--spacing'><span>Cooking:</span> 5 minutes</span></li>
-                        </ul>
-                    </section>
+                    {content.prepSection.map((prep) => (
+                        <section className='prepContain'>
+                            <h2>{prep.title}</h2>
+                            <UnorderedList itemList={prep.list}/>
+                        </section>
+                    ))}
                     {content.ingredients.map((ingredient) => (
                         <section className='ingredients'>
                             <h2>{ingredient.title}</h2>

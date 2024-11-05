@@ -149,15 +149,15 @@
     font-size: 1.2rem;
   }
 }
-.prepContain__lists {
+.prepContain > ul {
   margin: 0;
   padding-left: 1.5rem;
 }
-.prepContain__lists > li {
+.prepContain > ul > li {
   font-weight: 400;
   color: hsl(30, 10%, 34%);
 }
-.prepContain__lists > li::marker {
+.prepContain > ul > li::marker {
   color: hsl(332, 51%, 32%);
 }
 
