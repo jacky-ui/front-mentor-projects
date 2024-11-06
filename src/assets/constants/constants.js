@@ -77,22 +77,27 @@ const socialProfileContent = [
             {
                 anchorName: "GitHub",
                 anchorRef: "https://github.com/",
+                ariaLabel: "Click here to vist my Github",
             },
             {
                 anchorName: "Frontend Mentor",
                 anchorRef: "https://www.frontendmentor.io/",
+                ariaLabel: "Click here to vist my Frontend Mentor profile",
             },
             {
                 anchorName: "LinkedIn",
                 anchorRef: "https://www.linkedin.com/",
+                ariaLabel: "Click here to vist my LinkedIn",
             },
             {
                 anchorName: "Twitter",
                 anchorRef: "https://twitter.com/",
+                ariaLabel: "Click here to vist my Twitter",
             },
             {
                 anchorName: "Instagram",
                 anchorRef: "https://www.instagram.com/",
+                ariaLabel: "Click here to vist my Instagram",
             },
         ]
     }
