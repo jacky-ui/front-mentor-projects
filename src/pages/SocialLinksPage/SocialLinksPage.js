@@ -19,7 +19,7 @@ function SocialLinksPage() {
                         <ul>
                             {content.links.map((link) => (
                                 <li key={link.anchorName}>
-                                    <Link linkClass='socialCard__links--style' linkName={link.anchorName} linkHref={link.anchorRef} key={link.anchorName}/>
+                                    <Link linkClass='socialCard__links--style' linkName={link.anchorName} linkHref={link.anchorRef} key={link.anchorName} ariaLabel={link.ariaLabel}/>
                                 </li>
                             ))}
                         </ul>
