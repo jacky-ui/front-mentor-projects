@@ -20,16 +20,10 @@ My repo with all Front-End Mentor projects from newbie to intermediate. I will a
 /src<br/>
   ├── /components       // Reusable components<br/>
   ├── /pages            // Page components<br/>
-      │   ├── AdminPage<br/>
-      │   ├── DashboardPage<br/>
-      │   ├── LoginPage<br/>  
-  ├── /routes           // Route definitions<br/>
-  │   ├── PublicRoute.js<br/>
-  │   ├── PrivateRoute.js<br/>
-  │   └── AdminRoute.js <br/>
   ├── /utils            // Utility functions<br/>
   ├── /styles           // Styles (CSS, SCSS, etc.)<br/>
   ├── /assets           // Images, fonts, etc.<br/>
+      │   ├── constants<br/>
       │   ├── images<br/>
       │   ├── fonts<br/>
   ├── App.js            // Main application component<br/>
