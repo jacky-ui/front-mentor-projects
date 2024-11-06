@@ -16,9 +16,13 @@ function SocialLinksPage() {
                     <p className='socialCard__text'>{content.location}</p>
                     <p className='socialCard__descrip'>{content.description}</p>
                     <div className='socialCard__links'>
-                        {content.links.map((link) => (
-                            <Link linkClass='socialCard__links--style' linkName={link.anchorName} linkHref={link.anchorRef} key={link.anchorName}/>
-                        ))}
+                        <ul>
+                            {content.links.map((link) => (
+                                <li key={link.anchorName}>
+                                    <Link linkClass='socialCard__links--style' linkName={link.anchorName} linkHref={link.anchorRef} key={link.anchorName}/>
+                                </li>
+                            ))}
+                        </ul>
                     </div>
                 </article>
             ))}
