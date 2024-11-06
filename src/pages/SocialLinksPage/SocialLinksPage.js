@@ -8,9 +8,9 @@ function SocialLinksPage() {
     useSetTitle('Frontend Mentor | Social Links Profile');
     useSetBodyClass('scBody');
     return(
-        <>
+        <main>
             {socialProfileContent.map((content) => (
-                <main className='socialCard' key={content.name}>
+                <article className='socialCard' key={content.name}>
                     <img src={content.profile} alt={`${content.name} profile avatar`}/>
                     <h1>{content.name}</h1>
                     <p className='socialCard__text'>{content.location}</p>
@@ -24,9 +24,9 @@ function SocialLinksPage() {
                             ))}
                         </ul>
                     </div>
-                </main>
+                </article>
             ))}
-        </>
+        </main>
     )
 };
 
