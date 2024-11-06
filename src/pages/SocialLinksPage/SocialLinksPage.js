@@ -10,7 +10,7 @@ function SocialLinksPage() {
     return(
         <>
             {socialProfileContent.map((content) => (
-                <article className='socialCard' key={content.name}>
+                <main className='socialCard' key={content.name}>
                     <img src={content.profile} alt={`${content.name} profile avatar`}/>
                     <h1>{content.name}</h1>
                     <p className='socialCard__text'>{content.location}</p>
@@ -24,7 +24,7 @@ function SocialLinksPage() {
                             ))}
                         </ul>
                     </div>
-                </article>
+                </main>
             ))}
         </>
     )
