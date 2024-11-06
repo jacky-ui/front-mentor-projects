@@ -53,13 +53,23 @@
 
     // container for links
     &__links {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 0.8rem;
         width: 100%;
+        > ul {
+            padding: unset;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.8rem;
+            width: 100%;
+            margin: unset;
+            & li {
+                list-style: none;
+                width: 100%;
+            }
+        }
 
         &--style {
+            display: block;
             text-decoration: none;
             @include borders;
             @include buttons;
