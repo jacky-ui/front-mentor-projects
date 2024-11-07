@@ -3,6 +3,7 @@ import HomePage from './pages/HomePage/HomePage';
 import SocialLinksPage from './pages/SocialLinksPage/SocialLinksPage';
 import AdviceGenerator from './pages/AdviceGeneratorPage/AdviceGeneratorPage';
 import RecipePage from './pages/RecipePage/RecipePage';
+import TimeDashboardPage from './pages/TimeDashboardPage/TimeDashboardPage';
 import './styles/App.scss';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route path='/social-links' element={ <SocialLinksPage />}/>
           <Route path='/advice-generator' element={ <AdviceGenerator />} />
           <Route path='/recipe-page' element={ <RecipePage /> } />
+          <Route path='/time-dashboard' element={ <TimeDashboardPage />} />
         </Routes>
       </BrowserRouter>
     </>
