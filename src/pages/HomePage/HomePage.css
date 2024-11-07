@@ -81,6 +81,11 @@
   justify-content: space-between;
   gap: 1rem;
 }
+@media screen and (max-width: 760px) {
+  .homeContent__projects {
+    justify-content: center;
+  }
+}
 .homeContent__projects > a > img {
   width: 17rem;
   border-radius: 0.8rem;
