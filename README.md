@@ -9,7 +9,7 @@ My repo with all Front-End Mentor projects from newbie to intermediate. I will a
 ## Table of Contents
 - [Demo](#demo)
 - [Project Structure](#project-structure)
-- [Libraries & Tools](#libraries)
+- [Libraries & Tools](#libraries-and-tools)
 - [Installation](#installation)
 
 ## Demo
@@ -29,6 +29,12 @@ My repo with all Front-End Mentor projects from newbie to intermediate. I will a
   ├── App.js            // Main application component<br/>
   ├── index.js          // Entry point<br/>
 
-## Libraries
+## Libraries and Tools
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,sass,bootstrap,js,react,nodejs,express"/> <br>
+    <img src="https://skillicons.dev/icons?i=mysql,figma,git,github,vscode,autocad,arduino"/>
+  </a>
+</p>
 
 ## Installation
