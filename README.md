@@ -30,11 +30,5 @@ My repo with all Front-End Mentor projects from newbie to intermediate. I will a
   ├── index.js          // Entry point<br/>
 
 ## Libraries and Tools
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,sass,bootstrap,js,react,nodejs,express"/> <br>
-    <img src="https://skillicons.dev/icons?i=mysql,figma,git,github,vscode,autocad,arduino"/>
-  </a>
-</p>
 
 ## Installation
