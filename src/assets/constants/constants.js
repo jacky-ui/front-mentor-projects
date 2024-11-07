@@ -1,6 +1,7 @@
 import socialLinksProject from '../images/social-links.png';
 import recipePageProject from '../images/recipe-page.png';
 import adviceGeneratorProject from '../images/advice-generator.png';
+import timeDashboardProject from '../images/time-dashboard.png';
 import scAvatar from '../images/avatar-jessica.jpeg';
 
 // constants for projects on homepage
@@ -46,6 +47,17 @@ const homepageProjects = [
                     }
                 ]
             },
+            {
+                prjtPath: "/time-dashboard",
+                prjtImage: timeDashboardProject,
+                prjtDescrip: [
+                    {
+                        name: "Time Tracking Dashboard",
+                        descrption: "Challenge to build dashboard that tracks activities",
+                        tools: ["#react", "#scss"]
+                    }
+                ]
+            }
         ]
     },
     // {
