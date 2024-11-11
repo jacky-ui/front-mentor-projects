@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 .tdBody {
+  background-color: #0b1215;
   font-family: "Rubik", "Times New Roman", Times, serif;
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }/*# sourceMappingURL=TimeDashboardPage.css.map */

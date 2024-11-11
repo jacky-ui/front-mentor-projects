@@ -1,1 +1,1 @@
-{"version":3,"sources":["TimeDashboardPage.scss","TimeDashboardPage.css"],"names":[],"mappings":"AAAQ,0GAAA;AAER;EACI,qDAAA;ACAJ","file":"TimeDashboardPage.css"}
+{"version":3,"sources":["TimeDashboardPage.scss","../../styles/partials/_colors.scss","../../styles/partials/_mixins.scss","TimeDashboardPage.css"],"names":[],"mappings":"AAEQ,0GAAA;AAER;EACI,yBCJW;EDKX,qDAAA;EACA,uBCHK;ECHL,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,aAAA;ACKJ","file":"TimeDashboardPage.css"}
