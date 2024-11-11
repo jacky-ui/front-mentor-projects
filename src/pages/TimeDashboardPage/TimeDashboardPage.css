@@ -1,10 +1,78 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 .tdBody {
-  background-color: #0b1215;
+  background-color: hsl(226, 43%, 10%);
   font-family: "Rubik", "Times New Roman", Times, serif;
   color: hsl(0, 0%, 100%);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+.active {
+  color: hsl(0, 0%, 100%);
+}
+
+.notActive {
+  color: hsl(236, 100%, 87%);
+}
+
+.card__title {
+  font-size: 1.125rem;
+}
+
+.top__card {
+  position: relative;
+  z-index: 2;
+  border-radius: 0.8rem;
+  border-style: none;
+  padding: 2rem;
+}
+
+.bottom__card {
+  position: relative;
+  top: -10px;
+  padding: 2rem;
+  border-radius: 0rem 0rem 0.8rem 0.8rem;
+}
+
+.dashboard__mainCard {
+  height: 100%;
+  width: 18rem;
+}
+.dashboard__mainCard > div:first-child {
+  background-color: hsl(246, 80%, 60%);
+  height: 60%;
+}
+.dashboard__mainCard > div:first-child > img {
+  width: 6.5rem;
+  border: 3px solid hsl(0, 0%, 100%);
+  border-radius: 4rem;
+}
+.dashboard__mainCard > div:first-child > h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  margin: 1rem 0rem 3rem 0rem;
+}
+.dashboard__mainCard > div:first-child > h1 span {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: hsl(236, 100%, 87%);
+}
+.dashboard__mainCard > div:last-child {
+  background-color: hsl(235, 46%, 20%);
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+}
+.dashboard__mainCard > div:last-child button {
+  background-color: unset;
+  border: unset;
+  font-family: "Rubik";
+  font-size: 1.125rem;
+}
+.dashboard__mainCard > div:last-child button:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=TimeDashboardPage.css.map */
