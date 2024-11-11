@@ -5,10 +5,7 @@
 .scBody {
     margin: 0;
     background-color: $obsidianBlack;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    @include body-center;
     font-family: 'Inter', 'Times New Roman', Times, serif
 }
 

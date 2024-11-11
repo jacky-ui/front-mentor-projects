@@ -4,9 +4,7 @@
 
 .rpBody {
     background-color: $rpStone100;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include body-center;
     height: 100%;
 
     @include mobile {
