@@ -36,23 +36,55 @@
   border-radius: 0rem 0rem 0.8rem 0.8rem;
 }
 
+@media screen and (max-width: 760px) {
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .dashboard__mainCard {
   height: 100%;
   width: 18rem;
 }
+@media screen and (max-width: 760px) {
+  .dashboard__mainCard {
+    width: 100%;
+  }
+}
 .dashboard__mainCard > div:first-child {
   background-color: hsl(246, 80%, 60%);
   height: 60%;
+}
+@media screen and (max-width: 760px) {
+  .dashboard__mainCard > div:first-child {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
 }
 .dashboard__mainCard > div:first-child > img {
   width: 6.5rem;
   border: 3px solid hsl(0, 0%, 100%);
   border-radius: 4rem;
 }
+@media screen and (max-width: 760px) {
+  .dashboard__mainCard > div:first-child > img {
+    height: 5rem;
+    width: 5rem;
+  }
+}
 .dashboard__mainCard > div:first-child > h1 {
   font-size: 3rem;
   font-weight: 300;
   margin: 1rem 0rem 3rem 0rem;
+}
+@media screen and (max-width: 760px) {
+  .dashboard__mainCard > div:first-child > h1 {
+    font-size: 2rem;
+    margin: unset;
+    line-height: 100%;
+  }
 }
 .dashboard__mainCard > div:first-child > h1 span {
   font-size: 1.125rem;
@@ -67,11 +99,16 @@
   align-items: start;
   gap: 1rem;
 }
+@media screen and (max-width: 760px) {
+  .dashboard__mainCard > div:last-child {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
 .dashboard__mainCard > div:last-child button {
   background-color: unset;
   border: unset;
   font-family: "Rubik";
-  font-size: 1.125rem;
 }
 .dashboard__mainCard > div:last-child button:hover {
   cursor: pointer;
