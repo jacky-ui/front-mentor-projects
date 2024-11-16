@@ -101,13 +101,23 @@
   font-size: 0.9rem;
 }
 .socialCard__links {
+  width: 100%;
+}
+.socialCard__links > ul {
+  padding: unset;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.8rem;
   width: 100%;
+  margin: unset;
+}
+.socialCard__links > ul li {
+  list-style: none;
+  width: 100%;
 }
 .socialCard__links--style {
+  display: block;
   text-decoration: none;
   border-radius: 0.8rem;
   border-style: none;

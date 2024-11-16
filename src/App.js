@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage/HomePage';
-import SocialLinksPage from './pages/SocialLinksPage/SocialLinksPage';
-import AdviceGenerator from './pages/AdviceGeneratorPage/AdviceGeneratorPage';
-import RecipePage from './pages/RecipePage/RecipePage';
+import SocialLinksPage from './pages/SocialLinksPage/SocialLinksPage.js';
+import AdviceGenerator from './pages/AdviceGeneratorPage/AdviceGeneratorPage.js';
+import RecipePage from './pages/RecipePage/RecipePage.js';
 import EasyBankPage from './pages/EasyBankPage/EasyBankPage.js';
 import './styles/App.scss';
 

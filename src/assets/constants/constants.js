@@ -53,7 +53,7 @@ const homepageProjects = [
         prjtLevel: "INTERMEDIATE",
         prjt: [
             {
-                prjtPath: "/easy-bank",
+                prjtPath: "/easybank",
                 prjtImage: easyBankProject,
                 prjtDescrip: [
                     {
