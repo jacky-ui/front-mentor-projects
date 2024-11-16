@@ -1,6 +1,7 @@
 import socialLinksProject from '../images/social-links.png';
 import recipePageProject from '../images/recipe-page.png';
 import adviceGeneratorProject from '../images/advice-generator.png';
+import easyBankProject from '../images/easy-bank.png';
 import scAvatar from '../images/avatar-jessica.jpeg';
 
 // constants for projects on homepage
@@ -48,22 +49,22 @@ const homepageProjects = [
             },
         ]
     },
-    // {
-    //     prjtLevel: "INTERMEDIATE",
-    //     prjt: [
-    //         {
-    //             prjtPath: "/social-links",
-    //             prjtImage: socialLinksProject,
-    //             prjtDescrip: [
-    //                 {
-    //                     name: "Social Links Profile",
-    //                     descrption: "Challenge to build social link-sharing profile",
-    //                     tools: ["#react", "#scss"]
-    //                 }
-    //             ]
-    //         },
-    //     ]
-    // }
+    {
+        prjtLevel: "INTERMEDIATE",
+        prjt: [
+            {
+                prjtPath: "/easy-bank",
+                prjtImage: easyBankProject,
+                prjtDescrip: [
+                    {
+                        name: "Easybank Landing Page",
+                        descrption: "Challenge to build easybank landing page.",
+                        tools: ["#react", "#scss"]
+                    }
+                ]
+            },
+        ]
+    }
 ]
 
 // constants for social profile challenge
