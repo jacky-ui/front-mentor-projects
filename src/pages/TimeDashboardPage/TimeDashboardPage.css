@@ -19,6 +19,7 @@
 
 .card__title {
   font-size: 1.125rem;
+  font-weight: 500;
 }
 
 .top__card {
@@ -36,6 +37,27 @@
   border-radius: 0rem 0rem 0.8rem 0.8rem;
 }
 
+.top {
+  border-radius: 0.8rem;
+  border-style: none;
+  border-radius: 0.8rem 0.8rem 0rem 0rem;
+  display: flex;
+  justify-content: end;
+}
+
+.bottom {
+  padding: 2rem;
+  border-radius: 0.8rem;
+  border-style: none;
+  position: relative;
+  top: -30px;
+  z-index: 2;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: row;
+}
 @media screen and (max-width: 760px) {
   .dashboard {
     display: flex;
@@ -112,4 +134,37 @@
 }
 .dashboard__mainCard > div:last-child button:hover {
   cursor: pointer;
+}
+.dashboard__secondaryCard {
+  display: flex;
+  flex-direction: column;
+  width: 18rem;
+}
+.dashboard__secondaryCard > div:first-child {
+  background-color: hsl(15, 100%, 70%);
+  width: 100%;
+}
+.dashboard__secondaryCard--title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dashboard__secondaryCard--title img {
+  width: 2rem;
+  height: 0.5rem;
+}
+.dashboard__secondaryCard > div:last-child {
+  background-color: hsl(235, 46%, 20%);
+}
+.dashboard__secondaryCard--content {
+  display: flex;
+  flex-direction: column;
+}
+.dashboard__secondaryCard--content > span:first-child {
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+.dashboard__secondaryCard--content > span:last-child {
+  font-size: 0.925rem;
+  color: hsl(236, 100%, 87%);
 }/*# sourceMappingURL=TimeDashboardPage.css.map */
