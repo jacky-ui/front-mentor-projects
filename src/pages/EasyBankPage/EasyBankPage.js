@@ -1,11 +1,15 @@
 import useSetTitle from '../../utils/SetTitle';
+import useSetBodyClass from '../../utils/SetBodyClass';
 import './EasyBankPage.scss';
 
 function EasyBankPage() {
     useSetTitle('Frontend Mentor | Easybank');
+    useSetBodyClass('ebBody');
     return(
         <>
-            <h1>Hello World</h1>
+            <header>
+                
+            </header>
         </>
     );
 };
