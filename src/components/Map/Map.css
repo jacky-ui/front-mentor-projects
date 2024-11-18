@@ -1,0 +1,26 @@
+.map {
+  overflow: hidden;
+  margin-top: -8.5rem;
+  position: relative;
+  z-index: 1;
+}
+@media screen and (max-width: 760px) {
+  .map {
+    margin-top: -14rem;
+  }
+}
+
+.leaflet-container {
+  overflow: unset;
+  height: 100vh;
+  width: 100vw;
+}
+
+.leaflet-top {
+  top: 20%;
+}
+@media screen and (max-width: 760px) {
+  .leaflet-top {
+    top: 32%;
+  }
+}/*# sourceMappingURL=Map.css.map */

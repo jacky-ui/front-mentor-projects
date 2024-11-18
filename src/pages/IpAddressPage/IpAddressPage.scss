@@ -4,4 +4,16 @@
 
 .ipBody {
     font-family: 'Poppins', 'Times New Roman', Times, serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+
+    & input {
+        font-family: "Rubik";
+        font-weight: 500;  
+      
+        &::placeholder {
+          font-family: "Rubik";
+          font-weight: 500;
+        }
+      }
 }

@@ -1,13 +1,11 @@
 import './IpLocationInfo.scss';
 
-function IpLocationInfo({ title, locationInfo, classFunction }) {
+function IpLocationInfo({ title, locationInfo, classProp }) {
     return(
-        <>
-            <div className={classFunction(title)}>
-                <h2 className='locationBar__title'>{title}</h2>
-                <p className='locationBar__text'>{locationInfo}</p>
-            </div>
-        </>
+        <div className={classProp}>
+            <h2 className='locationBar__title'>{title}</h2>
+            <p className='locationBar__text'>{locationInfo}</p>
+        </div>
     )
 };
 

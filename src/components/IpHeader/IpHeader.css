@@ -9,6 +9,8 @@
   align-items: center;
   gap: 1rem;
   text-align: center;
+  position: relative;
+  z-index: 2;
 }
 @media screen and (max-width: 760px) {
   .header {
