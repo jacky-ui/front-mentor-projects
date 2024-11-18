@@ -1,7 +1,7 @@
 import SearchBar from '../SearchBar/SearchBar.js';
-import './Header.scss';
+import './IpHeader.scss';
 
-function Header() {
+function IpHeader() {
     return(
         <header className='header'>
             <h1 className='header__title'>IP Address Tracker</h1>
@@ -10,4 +10,4 @@ function Header() {
     )
 };
 
-export default Header;
+export default IpHeader;
